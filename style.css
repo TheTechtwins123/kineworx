@@ -1,0 +1,259 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{ 
+background-size:cover;
+background-position: center center;
+height: 100vh;
+text-align: center;
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "main"
+        "foot";
+    grid-template-rows: max-content auto max-content;
+}
+
+
+html{
+color: white;
+}
+
+body {
+    text-align: center;
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "main"
+        "foot";
+    grid-template-rows: max-content auto max-content;
+    
+}
+
+header {
+    grid-area: auto;
+    border-bottom: gray 2px solid;
+    background-image: url(gray3.jpg);
+}
+
+header {
+    display: block;
+    grid-area: nav;
+    border-bottom: gray 2px solid;
+    background-color: black;
+}
+
+main {
+    grid-area: main;
+    
+    
+}
+
+main {
+    display: block;
+}
+
+footer {
+    border-top: solid 2px gray;
+    grid-area: auto;
+    background-image: url(Untitled.jpg);
+    color: white;
+    float: left;
+}
+
+.logoleft{
+    float: left;
+    width: 150px;
+    height: 115px;
+}
+
+.logodown
+{
+    width: 60px;
+    height: 60px;
+}
+
+p
+{
+color: white;
+}
+
+footer {
+    display: block;
+}
+
+.mail
+{
+text-decoration: none;
+color: white;
+}
+
+footer a {
+    color: white;
+    font: medium;
+}
+
+.logo-right{
+margin: 10px;
+padding: 5px;
+width: 100px;
+border: white solid;
+border-radius: 20px;
+float: right;
+}
+
+.footer-box
+{
+    padding: 6px;
+    margin: 8px;
+}
+
+    .wrapper{
+    width: 860px; 
+    margin: 0 0px;
+    float: right;
+    }
+
+    .wrapper ul{
+    list-style: none;
+    margin-top: 2%;
+    }
+
+    .wrapper ul li {
+    background: gray;
+    width: 170px;
+    border: 1px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    justify-content: center;
+    margin-right: 5px;
+    }
+
+    .wrapper ul li:hover{
+    background: darkgray; 
+    }
+    
+    .wrapper ul ul{
+    display: none;
+    }
+
+    .wrapper ul li:hover > ul{
+    display: block;
+    }
+
+    .wrapper ul ul ul{
+    margin-left: 170px;
+    top: 0;
+    position: absolute;
+    }
+
+    h1{
+        padding: 10px;
+        margin: 10px;
+        color: black;        
+    }
+    .geugd
+    {
+        text-decoration: none;
+        border: #fff solid 1px;
+        border-radius: 100px;
+        padding: 5px;
+        color:#fff;
+    }
+
+
+
+    .icon{
+        width: 30px;
+        height: 30px;
+        color: white;
+        margin: 1px;
+    }
+    .background-color{
+        background-color: #000000;
+        color: #FFFFFF;
+        padding: 5px;
+        width: 450px;
+        border: white 1px solid;
+        border-radius: 10px;
+        text-align: initial;
+        display: flex;
+    }
+    .kine{
+        display: block;
+        font-size: 3em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px; 
+        font-weight: bold;
+        justify-content: center;
+        border-bottom: black 2px solid;
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+    .aboutus-article {
+        background-color: rgb(43, 145, 149);
+        border-radius: 10px;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    .flex-item {
+        max-width: 500px;
+        margin: 10px;
+        
+    }
+    div {
+        display: block;
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cookies{
+        padding: 100px;
+        border: black 1px solid;
+    }
+    .wrapper2{
+        background: gray;
+        width: 170px;
+        border: 1px solid #fff;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        float: right;
+        color: #fff;
+        font-size: 25px;
+        position: relative;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        justify-content: center;
+        margin-right: 5px;
+    }
+    .background-color2{
+        background-color: royalblue;
+        color: #FFFFFF;
+        padding: 2px;
+        width: 160px;
+        border: white 1px solid;
+        border-radius: 6px;
+        text-align: initial;
+        display: flex;
+        font-size: 3em;
+        margin-top: 10px;
+        float: right;
+        float: inline-start;
+    }

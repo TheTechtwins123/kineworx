@@ -1,0 +1,69 @@
+<li>Design
+                        <ul>
+    <li>Web</li>
+    <li>Graphics</li>
+    <li>Interior</li>
+    </ul>
+    </li>
+    
+    </ul>
+    </li>
+
+    </ul>
+
+
+
+    -
+
+
+    <a href="https://www.ksa.be/"><h1 class="underline">KSA</h1></a>
+        <img class="ksa"src="ksa.jpg" alt="ksa">
+        <div class="container">
+                <h3 class="ksainfo"></h3>
+            </div>
+            <hr>
+
+
+
+
+            -
+
+
+
+
+
+                    <img class="logo-right"src="channels4_profile.jpg" alt="Florian DD">
+		<div class="footer-box">
+        <h2>Florian Dedeckel</h2>
+		<h2>telefoon nummer: +32468 54 10 08</h2>
+		<h2><a href="mailto:floriandedeckel@student.coltd.be">mail</a></h2>
+    </div>
+
+
+
+-
+
+
+
+https://thumbs.dreamstime.com/b/modern-simple-geometric-vector-seamless-pattern-gold-line-texture-white-background-light-abstract-wallpaper-modern-simple-123642313.jpg
+
+
+
+    µ
+    -
+
+
+
+
+        .container{
+        width: 800px;
+        height: auto;
+        padding: 10px;
+        color: black;
+        margin: 10px auto;
+        border: 2px solid black;
+        position: relative;
+        background-color: lightgray;
+        }
+        
+        
